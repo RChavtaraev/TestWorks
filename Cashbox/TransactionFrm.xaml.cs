@@ -68,7 +68,7 @@ namespace Cashbox
             _form.TranItemsDG.ItemsSource = DS.Tables["tranitems"].DefaultView;
             _form.m_DS.Tables["tranitems"].DefaultView.ListChanged += _form.DefaultView_ListChanged;
             _form.DefaultView_ListChanged(null, null);
-            _form.Title = "Операция № " + _transactionRow["Number"] + ((int)(_transactionRow)["Status"] == 0 ? " (открыта)" : " (закрыта)");
+            _form.Title = "Чек № " + _transactionRow["Number"] + ((int)(_transactionRow)["Status"] == 0 ? " (открыт)" : " (закрыт)");
             bool _retval = (bool)_form.ShowDialog();
             if (_retval) 
             {

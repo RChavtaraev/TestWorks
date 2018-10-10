@@ -87,7 +87,7 @@
                 <Label Content="Позиций:" HorizontalAlignment="Left" Margin="8,79,0,0" VerticalAlignment="Top" FontSize="16" />
                 <TextBlock x:Name="RowCountTB" Text="{Binding ElementName=TranItemsDG, Path=Items.Count}" HorizontalAlignment="Left" Margin="92,80,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.274,-0.302" Width="63" Height="26" FontSize="20" FontWeight="Bold"/>
                 <TextBox x:Name="CachTB" HorizontalAlignment="Left" Height="53" Margin="265,26,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="220" FontSize="36" PreviewTextInput="CachTB_PreviewTextInput" TextChanged="CachTB_TextChanged"/>
-                <Button x:Name="DoneBtn" Content="Закрыть операцию" HorizontalAlignment="Left" Margin="507,95,0,0" VerticalAlignment="Top" Width="157" Height="28" Grid.ColumnSpan="2" Click="DoneBtn_Click" FontSize="16"/>
+                <Button x:Name="DoneBtn" Content="Закрыть чек" HorizontalAlignment="Left" Margin="507,95,0,0" VerticalAlignment="Top" Width="157" Height="28" Grid.ColumnSpan="2" Click="DoneBtn_Click" FontSize="16"/>
             </Grid>
         </Border>
 
