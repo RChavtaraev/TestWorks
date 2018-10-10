@@ -1,1 +1,0 @@
-E:\Work\HouseWoks\mysql-8.0.12-winx64\bin\mysqld.exe --defaults-file="E:\Work\HouseWoks\Cashbox\MySQLDB\config.ini"
