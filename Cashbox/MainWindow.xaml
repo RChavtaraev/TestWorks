@@ -32,7 +32,7 @@
         </Style>
     </Window.Resources>
     <Grid>
-        <DataGrid AlternationCount="2" CanUserAddRows="False" Name="Transactions" Margin="0,0,0,33" AutoGenerateColumns="False" GridLinesVisibility="Horizontal" IsReadOnly="True" MouseDoubleClick="Transactions_MouseDoubleClick" HeadersVisibility="Column">
+        <DataGrid AlternationCount="2" CanUserAddRows="False" Name="Transactions" Margin="0,0,10,33" AutoGenerateColumns="False" GridLinesVisibility="Horizontal" IsReadOnly="True" MouseDoubleClick="Transactions_MouseDoubleClick" HeadersVisibility="Column">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding Path=Number}"  Header="Номер операции" Width="*"/>
                 <DataGridTextColumn Binding="{Binding Path=Status, Converter={StaticResource statusConverter}}" Header="Статус"/>
