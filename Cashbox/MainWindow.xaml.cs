@@ -60,9 +60,9 @@ namespace Cashbox
                 Transactions.ItemsSource = m_DS.Tables["transactions"].DefaultView;
                 NewTransactionBtn.IsEnabled = true;
             }
-            catch
+            catch (Exception _e)
             {
-                MessageBox.Show("Ошибка доступа к БД", "Ошибка");
+                MessageBox.Show("Ошибка доступа к БД: " + _e.Message, "Ошибка");
             }
         }
 
